@@ -1,8 +1,3 @@
-/* 
-The Colour Scheme:
-https://coolors.co/c8ad87-c4aa84-baa17c-9d896b-786952-181818
-*/
-
 :root {
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
   --bg: #181818;
@@ -25,7 +20,6 @@ body {
 
 
 
-/* PAGE */
 main {
   margin-top: 90px;
   width: 100%;
@@ -33,7 +27,6 @@ main {
   justify-content: center;
 }
 
-/* CARD */
 .card {
   width: 480px;
   padding: 22px;
@@ -43,7 +36,6 @@ main {
   backdrop-filter: blur(6px);
 }
 
-/* TEXT */
 h1 {
   margin: 0;
   font-size: 18px;
@@ -56,7 +48,6 @@ p.lead {
   color: var(--muted);
 }
 
-/* FORMS */
 label {
   display: block;
   margin-top: 10px;
@@ -90,7 +81,6 @@ button:hover {
   border-color: #786952;
 }
 
-/* IMAGE PREVIEW */
 .background-select {
   display: flex;
   align-items: center;
@@ -107,7 +97,6 @@ button:hover {
   padding: 3px;
 }
 
-/* RESULT BOX */
 .result {
   margin-top: 14px;
   padding: 12px;
@@ -118,7 +107,6 @@ button:hover {
   text-align: center;
 }
 
-/* GUIDE HELP */
 .guide-help {
   background: rgba(20, 22, 26, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.07);
